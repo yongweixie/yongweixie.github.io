@@ -1,5 +1,5 @@
 ;(function($) {
-    "use strict"; 
+
     
     //* Navbar Fixed  
     function navbarFixed(){
@@ -14,10 +14,11 @@
             });
         };
     };  
-    
+
     //* AllAnimation JS
     function AllAnimation(){
         if ( $('body').length ){  
+
             function bodyScrollAnimation() {
                 var scrollAnimate = $('body').data('scroll-animation');
                 if (scrollAnimate === true) {
